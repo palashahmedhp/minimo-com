@@ -1,0 +1,307 @@
+/*common css part*/
+
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	margin: 0;
+	padding: 0;
+
+}
+
+/*header start*/
+
+header {
+	padding: 50px 0;
+
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid;*/
+	overflow: hidden;
+
+}
+.logo {
+    width: 10%;
+    float: left;
+    margin-top: 14px;
+    /*border: 1px solid red;*/
+}
+.logo img {
+	width: 100%;
+}
+.menu {
+	margin-top: 6px;
+	width: 60%;
+	float: right;
+	/*border: 1px solid skyblue;*/
+
+}
+.menu ul {
+	float: right;
+
+}
+.menu ul li {
+	float: left;
+	list-style: none;
+
+}
+.menu ul li a {
+	font-size: 17px;
+	color: #626262;
+	margin-right: 80px;
+	padding: 4px 2px 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.3s;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+
+
+
+}
+.menu ul li a:hover {
+	border-bottom: 1px solid #626262;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*header end*/	
+
+/*banner start*/
+.banner {
+
+}
+.b_img {
+
+}
+.b_img img {
+	width: 100%;
+}
+/*banner end*/
+
+/*getway start*/
+.getway {
+	padding: 100px 0 0;
+
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	/*border: 1px solid;*/
+	overflow: hidden;
+
+}
+.g_contant {
+
+}
+.c_para {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #b4ad9e;
+	margin: 0;
+	text-transform: uppercase;
+
+}
+.c_hed {
+	margin: 15px 0 20px;
+    font-size: 30px;
+
+}
+.common_para {
+	line-height: 26px;
+	margin-bottom: 60px;
+
+}
+/*feature start*/
+.feature {
+	padding: 104px 0 0;
+
+}
+.f_content {
+
+}
+.single {
+	width: 47%;
+	margin-bottom: 150px;
+	float: left;
+
+}
+.single:nth-child(even) {
+	margin-left: 6%;
+}
+.single img {
+	margin-bottom: 25px;
+	width: 100%;
+
+}
+.common {
+	text-align: justify;
+	margin-bottom: 0;
+
+}
+
+/*feature end*/
+
+/*news latter start*/
+.news {
+	background-color: #f0f0f0;
+	padding: 100px 0;
+
+}
+.singup {
+	text-align: center;
+
+}
+.news_h {
+	margin-top: 0;
+	color: #333333;
+	margin-bottom: 65px;
+
+}
+.s_form {
+	position: relative;
+	width: 26%;
+  	margin: 0 auto;
+
+}
+
+.s_form input{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #626262;
+    width: 87%;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #626262;
+    padding-left: 5px;
+    padding-right: 10%;
+}
+
+.s_form input:focus {
+	outline: 0;
+}
+.s_form button {
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	top: 18px;
+	right: 0;
+
+
+}
+.s_form button img {
+
+}
+
+/*news latter end*/
+
+/*feature2 start*/
+.feature2 {
+	margin: 104px 0 0;
+}
+
+/*feature2 end*/
+
+/*button start*/
+.load {
+	margin: 5px 0 240px;;
+	text-align: center;
+
+}
+.load button {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	color: #626262;
+	letter-spacing: 1.5px;
+	width: 160px;
+	padding: 25px 0;
+	background-color: transparent;
+	border-color: #3333;
+	transition: .3s;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+.load button:hover {
+	background-color: #f0f0f0;
+}
+/*button end*/
+
+
+/*footer start*/
+footer {
+	padding: 25px 0;
+	background-color: #f0f0f0;
+
+}
+.f_con {
+
+}
+.pray {
+	width: 30%;
+	margin-left: 70px;
+	float: left;
+
+}
+.pray ul {
+
+}
+.pray ul li {
+	list-style: none;
+	float: left;
+	margin-right: 25px;
+
+}
+.pray ul li a {
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	color: #626262;
+	text-decoration: none;
+	display: inline-block;
+	cursor: auto;
+
+}
+.social {
+	width: 40%;
+	float: right;
+
+}
+.social ul span {
+	font-size: 17px;
+	margin-left: 406px;
+    margin-right: 25px;
+}
+
+}
+.social ul span {
+    margin-left: 406px;
+    margin-right: 25px;
+
+
+}
+.social ul {
+
+}
+.social ul li {
+	list-style: none;
+	float: right;
+	margin-right: 25px;
+
+}
+.social ul li a {
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	color: #626262;
+	text-decoration: none;
+	display: inline-block;
+
+}
+/*footer end*/
+
